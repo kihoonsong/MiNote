@@ -1,0 +1,8 @@
+.memo_section {
+  width: 600px;
+  height: 100px;
+  margin: 40px auto;
+  background: #f1f2f3;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}

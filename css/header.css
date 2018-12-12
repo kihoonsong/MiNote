@@ -1,0 +1,34 @@
+.top_bar {
+  background-color: #ffffff;
+  color: #767676;
+  padding: 18px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #dadce0;
+}
+
+.top_bar .hambuger i {
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 23px;
+  color: #767676;
+}
+.top_bar .my_logo .logo_img i {
+  color: #f3b306;
+  font-size: 30px;
+  margin-right: 17px;
+}
+.top_bar .my_logo .my_name {
+  font-size: 25px;
+  color: black;
+  font-weight: 700;
+}
+.top_bar .sign_in {
+  font-size: 15px;
+  color: #92969a;
+  margin-right: 25px;
+  font-weight: 700;
+}
