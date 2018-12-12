@@ -5,4 +5,12 @@
   background: #f1f2f3;
   border: 1px solid transparent;
   border-radius: 5px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.memo_section.memo_title_text {
+  padding: 10px;
 }
