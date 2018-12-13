@@ -1,19 +1,2 @@
 .memo_list {
-  width: 450px;
-  height: 100px;
-  display: flex;
-  justify-content: flex-start;
-  margin: 20px auto;
-  border: 1px solid transparent;
-  border-radius: 5px;
-  background-color: #ffffff;
-  border-color: #dadce0;
-}
-.memo_list {
-  display: flex;
-  justify-content: flex-start;
-}
-.list_top span {
-  font-size: 25px;
-  margin: 10px;
 }

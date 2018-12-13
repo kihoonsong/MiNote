@@ -6,6 +6,7 @@
 @import "memo_title_bar.css";
 @import "memo_main.css";
 @import "memo_search.css";
+@import "memo_list_content.css";
 @import "memo_list.css";
 
 body {

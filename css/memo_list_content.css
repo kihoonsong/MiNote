@@ -1,0 +1,33 @@
+.memo_list_content {
+  width: 450px;
+  height: 100px;
+  display: block;
+  justify-content: flex-start;
+  margin: 20px auto;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border-color: #dadce0;
+}
+.list_top {
+  weight: 450px;
+  height: 40px;
+  padding-top: 10px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+}
+.list_top_calumn {
+  width: 150px;
+}
+.list_top i {
+  font-size: 20px;
+  color: #6f6f6f;
+  margin-left: 110px;
+}
+
+.list_bottom {
+  width: 450px;
+  height: 60px;
+}
