@@ -15,27 +15,61 @@
   </head>
   <body>
     <header class="top_bar">
-      <nav class="hambuger"><i class="fas fa-bars"></i></nav>
-      <a href="" class="my_logo"><i class="fas fa-pen-square">MiNote</i></a>
-      <a href="" class="user_profile"><i class="fas fa-user">User_Name</i></a>
-    </header>
-    <main class="meno_list">
-      <div class="search-bar">
-        <i class="fas fa-search"></i>
-        <input type="text" class="text" placeholder="Find Your Memo" />
-        <a href="" class="new_memo"><i class="fas fa-pencil-alt"></i></a>
+      <div id="menuToggle">
+        <input type="checkbox" /> <span></span> <span></span> <span></span>
+        <ul id="menu">
+          <a href="#"> <li>User_name</li></a>
+          <a href="#"><li>Memo</li></a>
+          <a href="#"><li>Info</li></a>
+          <a href="#"><li>Contact</li></a>
+          <a href="https://erikterwan.com/" target="_blank"
+            ><li>Show me more</li>
+          </a>
+        </ul>
       </div>
-      <section class="memo_section">
-        <header class="memo_title">
-          <h2 class="friend_section_header">메모장 제목</h2>
-          <a href="#"><i class="far fa-trash-alt"></i></a>
-        </header>
-        <div class="memo_section_row">
-          <div class="memo_row">
-            <span class="friend_section_name">전광판</span>
+      <div class="my_logo">
+        <a>
+          <div href="" class="my_logo">
+            <div class="logo_img">
+              <i class="fas fa-pen-square"></i
+              ><span class="my_name">My Invest Note</span>
+            </div>
           </div>
+        </a>
+      </div>
+      <div class="sign">
+        <a>
+          <span class="sign_out"
+            >Sign Out <i class="fas fa-sign-out-alt"></i
+          ></span>
+        </a>
+      </div>
+    </header>
+    <main class="memo_memo">
+      <div class="memo_title_bar">
+        <div class="memo_title_bar_column">
+          <input type="text" class="memo_title_text_main" placeholder="Title" />
         </div>
-      </section>
+        <div class="memo_title_bar_column"></div>
+        <div class="memo_title_bar_column">
+          <i class="fas fa-search" id="search_info_icon_"></i>
+          <input
+            type="text"
+            class="memo_title_text_main"
+            placeholder="Search Stock, Index..."
+          />
+        </div>
+      </div>
+      <div class="memo_memo_main">
+        <div class="memo_edi"></div>
+        <div class="memo_wri">
+          <input
+            type="text"
+            class="memo_title_text_main"
+            placeholder="메모 작성..."
+          />
+        </div>
+      </div>
     </main>
   </body>
 </html>

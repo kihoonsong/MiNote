@@ -1,8 +1,12 @@
 @import "reset.css";
 @import "header.css";
 @import "global.css";
-@import "search_bar.css";
 @import "memo_section.css";
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:500&subset=korean");
+@import "memo_title_bar.css";
+@import "memo_main.css";
+@import "memo_search.css";
+@import "memo_list.css";
 
 body {
   margin: 0;
