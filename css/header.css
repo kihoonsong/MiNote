@@ -10,12 +10,6 @@
   border-bottom: 1px solid #dadce0;
 }
 
-.top_bar .hambuger i {
-  margin-bottom: 5px;
-  text-align: center;
-  font-size: 23px;
-  color: #767676;
-}
 .top_bar .my_logo .logo_img i {
   color: #f3b306;
   font-size: 30px;
@@ -37,7 +31,7 @@
 .my_logo #beta {
   background-color: red;
   color: white;
-  font-size: 3px;
+  font-size: 10px;
   padding: 2px;
   border-radius: 3px;
 }
