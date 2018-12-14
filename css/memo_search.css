@@ -25,6 +25,10 @@
   width: 600px;
 }
 .new_memo i {
-  font-size: 25px;
+  font-size: 20px;
   margin: 7px 5px;
+}
+
+.new_memo i:hover {
+  font-size: 25px;
 }
