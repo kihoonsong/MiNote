@@ -21,11 +21,3 @@
   font-size: 20px;
   font-weight: 500;
 }
-.memo_memo_main :active {
-  transition: border-color 0.2s linear;
-  box-shadow: 0px 3px 10px rgba(0.2, 0.2, 0.2, 0.2);
-}
-.memo_memo_main :visited {
-  transition: border-color 0.2s linear;
-  box-shadow: 0px 3px 10px rgba(0.2, 0.2, 0.2, 0.2);
-}
