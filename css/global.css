@@ -1,6 +1,12 @@
-body,
-main {
+body {
   margin-top: 100px;
   page-break-inside: 70px;
   font-family: "Noto Sans KR", sans-serif;
+}
+
+main {
+  margin-top: 100px;
+}
+input:focus {
+  outline: none;
 }

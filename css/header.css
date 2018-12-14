@@ -32,3 +32,10 @@
   margin-right: 25px;
   font-weight: 700;
 }
+.my_logo #beta {
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px;
+  border-radius: 3px;
+}
