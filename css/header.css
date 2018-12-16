@@ -17,8 +17,8 @@
 }
 .top_bar .my_logo .my_name {
   font-size: 25px;
-  color: black;
-  font-weight: 700;
+  color: #6f6f6f;
+  font-weight: 500;
 }
 
 .top_bar .sign_out {
@@ -29,9 +29,10 @@
 }
 
 .my_logo #beta {
-  background-color: red;
-  color: white;
+  color: red;
   font-size: 10px;
   padding: 2px;
   border-radius: 3px;
+  font-family: "Marck Script", cursive;
+  font-weight: 400;
 }
