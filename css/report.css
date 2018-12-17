@@ -39,8 +39,8 @@
 }
 
 .report_list_content {
-  width: 450px;
-  height: 100px;
+  width: 900px;
+  height: 40px;
   display: inline-block;
   justify-content: flex-start;
   margin: 10px auto;
