@@ -27,3 +27,27 @@
   font-weight: 500;
   width: 650px;
 }
+
+.report_list {
+  max-width: 1000px;
+  padding: 5px;
+  height: 100%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.report_list_content {
+  width: 450px;
+  height: 100px;
+  display: inline-block;
+  justify-content: flex-start;
+  margin: 10px auto;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border-color: #dadce0;
+  margin-right: 5px;
+  margin-left: 5px;
+}
