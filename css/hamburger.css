@@ -15,7 +15,13 @@ a {
   border-bottom-right-radius: 80px 80px;
   color: #6f6f6f;
 }
-
+.top_bar li {
+  display: flex;
+  justify-content: ;
+}
+.hamburger_sec.user_name {
+  justify-content: center;
+}
 #menuToggle {
   display: block;
   position: relative;
@@ -37,6 +43,10 @@ a {
   opacity: 0; /* hide this */
   z-index: 2; /* and place it over the hamburger */
   -webkit-touch-callout: none;
+}
+
+.hamburger_sec div {
+  margin-left: 30px;
 }
 
 #menuToggle span {
@@ -82,7 +92,7 @@ a {
   width: 300px;
   margin: -100px 0 0 -50px;
   padding: 0px, 50px;
-  padding-top: 125px;
+  margin-top: 20px;
 
   background: #ffffff;
   list-style-type: none;
