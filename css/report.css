@@ -51,3 +51,8 @@
   margin-right: 5px;
   margin-left: 5px;
 }
+
+.report_list_content:hover {
+  transition: border-color 0.2s linear;
+  box-shadow: 0px 3px 10px rgba(0.2, 0.2, 0.2, 0.2);
+}
