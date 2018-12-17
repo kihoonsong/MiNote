@@ -27,7 +27,9 @@
   margin-right: 25px;
   font-weight: 700;
 }
-
+.sign {
+  padding-top: 10px;
+}
 .my_logo #beta {
   color: red;
   font-size: 10px;
