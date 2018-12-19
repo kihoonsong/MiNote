@@ -190,12 +190,6 @@ div.right a.google-plus:hover {
   background: rgba(233, 84, 79, 0.8);
 }
 
-@import "compass/css3";
-
-[class*="fontawesome-"]:before {
-  font-family: "FontAwesome", sans-serif;
-}
-
 body {
   @include background(
     linear-gradient(left, #272838, #2b2d41, #393549, #433545)
