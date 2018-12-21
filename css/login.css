@@ -4,6 +4,8 @@
 
 body#login_body {
   font-family: "Raleway", sans-serif;
+  margin-top: 100px;
+  page-break-inside: 70px;
 }
 
 form#login-form {
