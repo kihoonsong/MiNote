@@ -1,6 +1,12 @@
+.setting_main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .setting_list_content {
     width: 450px;
-    height: 100px;
+    height: 200px;
     display: inline-block;
     justify-content: flex-start;
     margin: 10px auto;
@@ -8,38 +14,27 @@
     border-radius: 5px;
     background-color: #ffffff;
     border-color: #dadce0;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 
-  .setting_list_top {
+  .setting_list_content .setting_list_top {
     weight: 450px;
-    height: 40px;
-    padding-top: 10px;
-    padding-left: 10px;
+    height: 80px;
+    padding-top: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: left;
     display: flex;
-    justify-content: space-around;
-  }
-  .setting_list_top_calumn span {
-    font-size: 25px;
-    font-weight: 500px;
-  }
-  .setting_list_top_calumn {
-    width: 150px;
-  }
-  .setting_list_top i {
+    justify-content: flex-start;
+font-size: 20px;
+font-weight: 400;  }
 
-  }
-  
   .setting_list_bottom {
     width: 450px;
-    height: 60px;
+    height: 120px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
-  .memo_list_content:hover {
-    transition: border-color 0.2s linear;
-    box-shadow: 0px 3px 10px rgba(0.2, 0.2, 0.2, 0.2);
-  }
-  .list_top i:hover {
-    font-size: 25px;
-  }
+
   
