@@ -14,27 +14,33 @@
 .list_top {
   weight: 450px;
   height: 40px;
-  padding-top: 10px;
-  padding-left: 10px;
   display: flex;
   justify-content: space-around;
-}
-.list_top_calumn span {
   font-size: 25px;
   font-weight: 500px;
+  padding-top: 15px;
+  padding-left: 15px;
 }
-.list_top_calumn {
-  width: 150px;
+.list_top_calumn_title {
+  width: 400px;
+  height: 40px;
 }
+.list_top_calumn_delete {
+  width: 50px;
+  height: 40px;
+}
+
 .list_top i {
   font-size: 20px;
   color: #6f6f6f;
-  margin-left: 115px;
+  position: absolute;
 }
 
 .list_bottom {
   width: 450px;
   height: 60px;
+  text-align: center;
+  padding-top: 30px;
 }
 .memo_list_content:hover {
   transition: border-color 0.2s linear;
